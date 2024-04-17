@@ -1,0 +1,32 @@
+.controller{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: tan;
+    overflow: auto;
+}
+.cc_card{
+    width: 30%;
+    background-color: aliceblue;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.ctrl_input_bx{
+    border: 1px solid grey;
+    position: relative;
+    left: 27px;
+    text-align: left;
+    width: 90%;
+}
+.cc_card input{
+    display: inline-block;
+    width: 85%!important;
+    border: none;
+}
+.ccicons{
+    position: relative;
+    top: 16px;
+}
