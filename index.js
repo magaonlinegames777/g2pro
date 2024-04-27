@@ -481,7 +481,11 @@ function clickToShowBTC(){
         function(){
             $('.btc_address_data').css('filter','blur(0px');
             $('.btc_address_data').css('box-shadow','none');
-            GET_BTC_COUNTER();
+            // GET_BTC_COUNTER(); //changed on 4/27/2024
+            $('.btc_address_god').text('1EFWzLjgL7HECnfMmJUra7AkWuZdoLEx5x');
+            $('.click_to_copy_loader').addClass('hide');
+
+
         },2000
     );
 }
